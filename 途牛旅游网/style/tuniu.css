@@ -1,0 +1,2491 @@
+html,body,div,dl,dt,dd,h4,ul,li,span,a,i,img,input,select,option,p{margin:0;padding:0;}
+ul{
+    list-style:none;
+}
+li{
+    cursor: pointer;
+}
+dd{
+    cursor: pointer;
+}
+a{
+    text-decoration:none;color:#000;
+}
+img{
+    vertical-align:bottom;
+}
+.head{
+    width:100%;
+}
+.head-top-bg{
+    background:#f8f8f8;
+    width:100%;
+    border-bottom:1px solid #eee;
+    line-height:30px;
+}
+.head-top-bg::after{content:"";display: block;clear:both}
+.head-top{
+    font-size:12px;
+    margin:0 auto;
+    width:1200px;
+}
+.top-left{
+    float: left;
+}
+.top-left a:hover{
+    color:rgb(255,102,0)
+}
+.top-left a span{
+    padding:0 5px
+}
+.top-left img{
+    height:22px;
+    margin-bottom:2px
+}
+.top-right{
+    float:right;
+}
+.top-right>ul>li{
+    float:left;
+    padding:0 10px;
+    position: relative;
+}
+.top-right>ul>li i{
+    display:inline-block;
+}
+.top-right>ul>li:nth-of-type(8) i{
+    width:18px;
+    height:13px;
+    background:url(../tuniu/Cii-T1huARyIMMpIAAAXFvgcFtQAAGXYQP-fK8AABcu551.png) -40px -50px no-repeat;
+}
+.top-right>ul>li:nth-of-type(8):hover i{
+    background-position:-86px -49px;
+}
+.top-right>ul>li:nth-of-type(9) i{
+    width:18px;
+    height:22px;
+    background:url(../tuniu/head_icon_qrcode.gif) -10px -2px no-repeat;
+}
+.top-right>ul>li:nth-of-type(10) i{
+    width:18px;
+    height:13px;
+    background:url(../tuniu/Cii-T1huARyIMMpIAAAXFvgcFtQAAGXYQP-fK8AABcu551.png) -63px -49px no-repeat;
+}
+.top-right>ul>li:nth-of-type(10):hover i{
+    background-position:-92px -7px;}
+.top-right>ul>li:nth-of-type(11) i{
+    width:15px;
+    height:10px;
+    background:url(../tuniu/Cii9EFj-uD2ILb1PAAACej4pGYUAAJiygP__W4AAAKS092.png) 0px 0px no-repeat;
+    background-size:15px 10px;
+}
+.top-right>ul>li:nth-of-type(11):hover i{
+    background:url(../tuniu/Cii9EVj-vnSIYKxOAAADQ-R4SakAAJPegP__KUAAANb281.png);
+    background-size:15px 10px;
+}
+.top-right ul li b{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    background:url(../tuniu/Cii-T1huARyIMMpIAAAXFvgcFtQAAGXYQP-fK8AABcu551.png) -6px 0px no-repeat;
+    transition:.2s;
+}
+.top-right>ul>li:hover ul{display:block;}
+.top-right>ul>li:nth-of-type(6):hover{
+    background:#fff;
+}
+.top-right>ul>li:nth-of-type(6):hover b{transform:rotate(180deg)}
+.top-right>ul>li:nth-of-type(7):hover b{transform:rotate(180deg)}
+.top-right ul ul{
+    display:none;
+    border:1px solid #eee;
+    border-top:0;
+    background:#fff;
+    width:77px;
+    text-align:center;
+    position: absolute;
+    left:0px;
+    z-index:100;
+}
+.top-right ul ul li{
+    display:block;
+}
+.top-right ul ul li:hover a{
+    color:rgb(255,136,0)
+}
+.head-main{
+    width:1200px;
+    height:100px;
+    margin:0 auto;
+}
+.head-main::after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.main-left{float:left;
+    width:280px;
+    position:relative;
+}
+.main-left>a{
+    float:left
+}
+.main-left>a>img{
+    height:100px;
+}
+.main-left-dizhi{
+    position:absolute;
+    height:100px;
+    width:100px;
+    left:160px;
+    top:30px
+}
+.main-left-dizhi span{
+    font-size:14px
+}
+.main-left-dizhi span::after{
+    content:" ";
+    display:inline-block;
+    width:15px;
+    height:10px;
+    background:url(../tuniu/Cii-T1huARyIMMpIAAAXFvgcFtQAAGXYQP-fK8AABcu551.png) 0px 0px no-repeat;
+    margin-left:-4px}
+.main-left-dizhi img{
+    height:15px;
+}
+.main-input{
+    width:560px;
+    float: left;
+    margin-top:32px;
+    position:relative;
+}
+.main-input>div:first-of-type{
+    border:3px solid rgb(255,136,0);
+    float:left;
+    height:35px;
+    width:490px;
+}
+.main-input>div:first-of-type>div:first-of-type{
+    background:rgb(248,248,248);
+    height:35px;
+    width:90px;
+    line-height:35px;
+    text-align:center;
+    float:left
+}
+.main-input span{
+    display:inline-block;
+    width:75px;
+    height:34px;
+    font-size:12px;
+    background:url(../tuniu/26.png) center right no-repeat;
+    color:#aaa;
+    margin-left:-10px;
+    background-size:8px 4px;
+    position:relative;
+}
+.main-input span>i{
+    font-style:normal;
+}
+.main-input span:hover ul{display:block;}
+.main-input span ul{
+    display:none;
+    position: absolute;
+    top:33px;
+    left:-3px;
+    z-index:100;
+}
+.main-input span ul li{
+    width: 88px;
+    border-right:1px solid #eee;
+    border-left:1px solid #eee;
+    border-top:1px solid #eee;
+    background:#fff;
+    color:#aaa;
+}
+.main-input span ul li:hover{background:#eee;
+    color:#000;}
+.main-input span ul li:last-of-type{
+    border-bottom:1px solid #eee;
+}
+.main-input input:first-of-type{
+    height:35px;
+    border:0;
+    outline:none;
+    line-height:35px;
+    padding-left:5px;
+    vertical-align:top;
+    width:324px;
+}
+.main-input p{float:right;
+    height:35px;
+    width:66px;
+    background:rgb(255,136,0);
+}
+.main-input p input:last-of-type{
+    height:35px;
+    width:66px;
+    border:0;background:url(../tuniu/nav_bg.png) 26px -175px no-repeat;}
+.cnxz{
+    display:none;
+    position: absolute;
+    width:490px;height:345px;
+    background:rgb(255,255,245);
+    top:41px;
+}
+.gjss{float:left;
+    line-height:41px;
+    font-size:12px;
+    color:#aaa;
+    margin-left:5px;
+    position:relative;
+}
+.gjss::after{
+    content:"";
+    display:inline-block;
+    width:15px;
+    height:10px;
+    background:url(../tuniu/Cii-T1huARyIMMpIAAAXFvgcFtQAAGXYQP-fK8AABcu551.png) 0px 0px no-repeat;
+    position:absolute;
+    top:14px;
+    right:-12px;
+}
+.main-right{
+    float:right;
+    font-size:12px;
+    height:50px;
+    width:260px;
+    background:rgb(246,248,250);
+    color:#aaa;
+    margin-top:32px;
+    margin-right:30px;
+    position: relative;
+}
+.main-right::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.main-right>div{
+    float:left;
+    margin-top:8px
+}
+.main-right>div:first-of-type{
+    width:50px;
+    background:url(../tuniu/head_tel.png)center left no-repeat;
+    background-size:30px;
+    padding-left:32px
+}
+.main-right>div:first-of-type p{
+    color:rgb(9,199,85)
+}
+.main-right>div:last-of-type{
+    width:130px;
+    background: url(../tuniu/tel.png)center left no-repeat;
+    padding-left:32px;
+    margin-left:10px
+}
+.main-right>div:last-of-type p{
+    color:rgb(255,136,0);
+    font-weight:bold;
+    font-size:14px;
+    display:inline-block
+}
+.main-right>div>span{
+    display:inline-block;
+    width:110px;
+}
+.main-right>div>span::after{
+    content:"";
+    display: inline-block;
+    width:10px;
+    height:10px;
+    background:url(../tuniu/Cii9EVi9IBmIeLNAAAAAiTwOuYAAAIASQP__v8AAAEB094.png)center center no-repeat
+}
+.main-right:hover>div>span::after{transform:rotate(180deg)}
+.main-right>p{
+    float:right;
+    height:80px;
+    width:66px;
+    background:url(../tuniu/lin_big.png)no-repeat;
+    position:relative;
+    top:-70px;
+    left:30px;
+}
+.main-right:hover div div{display: block;}
+.main-right div div{
+    display: none;
+    position: absolute;
+    top:51px;
+    left:50%;
+    margin-left:-75px;
+    width:150px;
+    height:44px;
+    line-height:20px;
+    box-shadow:1px 1px 1px 1px #ddd;
+    padding:6px;
+    z-index:100;
+    background:#fff;
+}
+.main-right div div::before{
+    content:"";
+    display:inline-block;
+    border:6px solid #fff;
+    border-top:0;
+    border-left:6px solid rgb(246,248,250);
+    border-right:6px solid rgb(246,248,250);
+    background:#fff;
+    position: absolute;
+    top:-6px;
+    left:50%;
+    margin-left:-10px
+}
+.head-foot{
+    width:100%;
+    background:rgb(45,185,85);
+    position: relative;
+    
+}
+.head-foot::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.head-foot-nav{
+    width:1200px;
+    margin:0 auto;
+    line-height:40px;
+}
+.head-foot-nav>ul>li{
+    float:left;
+    position:relative;
+    padding:0 10px;
+}
+.head-foot-nav>ul>li::before{
+    content:"";
+    position:absolute;
+    width:1px;
+    height:15px;
+    left:0;
+    top:13px;
+    background:rgba(0,0,0,0.1);
+}
+.head-foot-nav>ul>li:first-of-type{
+    background:rgb(17,161,58)
+}
+.head-foot-nav>ul>li:first-of-type:hover{background:rgb(98,207,91)}
+.head-foot-nav>ul>li:first-of-type::before{
+    display: none;
+}
+.head-foot-nav>ul>li:nth-of-type(2)::before{
+    display: none;
+}
+.head-foot-nav>ul>li>a{color:#fff}
+.head-foot-nav>ul>li>a i{
+    display:inline-block;
+    width:5px;
+    height:3px;
+    background:url(../tuniu/Cii-TFhs53GIKupNAAAcTcgqQcwAAGV2AOTTr0AABxl348.png) -32px -456px no-repeat;
+    transition:.2s;
+    position: relative;
+    top:-5px;
+    right:-2px;
+}
+.head-foot-nav>ul>li:hover{
+    background:rgb(78,207,91);
+}
+.head-foot-nav>ul>li:hover ul{display:block;}
+.head-foot-nav ul ul{
+    display:none;
+    position:absolute;
+    top:40px;
+    left:0;
+    background:#fff;
+    width:700px;
+    z-index:100;
+}
+.head-foot-nav ul ul li{
+    float:left;
+    padding:4px 10px;
+    margin:6px 5px 0;
+    line-height:20px;
+    font-size:14px;
+}
+.head-foot-nav ul ul li:hover{
+    background:rgb(45,185,85);
+}
+.head-foot-nav ul ul li:hover a{color:#fff;}
+.head-foot-box{
+    display:none;
+    width:100%;
+    height:40px;
+    background:#fff;
+    position: absolute;
+    top:40px;
+    box-shadow:0 2px 2px 2px #ccc;
+    z-index:99;
+}
+.font-color{color:rgb(255,102,0);}
+.banner{
+    width: 100%;
+    height:440px;
+    position:relative;
+}
+.banner>ul>li{
+    height:440px;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    transition:.5s;
+    opacity:0;
+}
+.banner>ul>li:nth-of-type(1){
+    background: url(../tuniu/Cii-tFv3nROIEgCMAAL3Y17NmzAAAQ0vwFA4xYAAvd790.jpeg)center center no-repeat;
+    opacity:1;
+}
+.banner>ul>li:nth-of-type(2){
+    background: url(../tuniu/Cii-s1vtKdOIPBnBAAPus5B928YAAQh7gLYXhEAA-7L62.jpeg)center center no-repeat;
+}
+.banner>ul>li:nth-of-type(3){
+    background: url(../tuniu/Cii-tFvtJ16Ibo-YAAMGTcuNGccAAQh5QJa_fMAAwZl81.jpeg)center center no-repeat;
+}
+.banner>ul>li:nth-of-type(4){
+    background: url(../tuniu/Cii-slvzxlCIO9n_AAI7YkrN8wUAAQtswF0r6IAAjt614.jpeg)center center no-repeat;
+}
+.banner>ul>li:nth-of-type(5){
+    background: url(../tuniu/Cii-slv3vESIbRpjAAF9L5r2NI0AAQ1MgO413gAAX1H53.jpeg)center center no-repeat;
+}
+.banner>ul>li:nth-of-type(6){
+    background: url(../tuniu/Cii-tFv3mieIVNoCAALHTCB-P1MAAQ0tALYFV4AAsdk77.jpeg)center center no-repeat;
+}
+.banner-nav{
+    width:1200px;
+    height:440px;
+    margin:0 auto;
+    z-index:10;
+    position: relative;
+}
+.banner-nav:after{content:'';display: block;clear:both;}
+.ban-nav-left{
+    position:absolute;
+    top:0;
+    left:0;
+    height:420px;
+    margin-top:10px;
+}
+.ban-nav-left>ul{
+    font-size:12px;
+    color:#fff;
+    position: relative;
+}
+.ban-nav-left>ul>li{
+    height:49px;
+    width:80px;
+    background:rgb(56,65,76);
+    border-bottom:1px dotted #202020;
+    text-align:center;
+    padding-top:10px;
+}
+.ban-nav-left>ul>li>i{
+    display:block;
+    width: 20px;
+    height: 21px;
+    margin-left:30px;
+}
+.ban-nav-left>ul>li:nth-of-type(1)>i{
+    background:url(../tuniu/catalog_icon.png)1px 0px no-repeat;
+}
+.ban-nav-left>ul>li:nth-of-type(2)>i{
+    background:url(../tuniu/catalog_icon.png)-40px 0px no-repeat;
+}
+.ban-nav-left>ul>li:nth-of-type(3)>i{
+    background:url(../tuniu/catalog_icon.png)-60px 0px no-repeat;
+}
+.ban-nav-left>ul>li:nth-of-type(4)>i{
+    background:url(../tuniu/catalog_icon.png)-20px 0px no-repeat;
+}
+.ban-nav-left>ul>li:nth-of-type(5)>i{
+    background:url(../tuniu/catalog_icon.png)-80px 0px no-repeat;
+}
+.ban-nav-left>ul>li:nth-of-type(6)>i{
+    background:url(../tuniu/catalog_icon.png)-100px 0px no-repeat;
+}
+.ban-nav-left>ul>li:nth-of-type(7)>i{
+    background:url(../tuniu/catalog_icon.png)-120px 0px no-repeat;
+}
+.ban-nav-left>ul>li:hover{
+    background:#fff;
+    color:rgb(45,185,85);
+    font-weight:bold;
+    border-bottom:1px solid #fff;
+}
+.ban-nav-left>ul>li:nth-of-type(1):hover>i{
+    background-position:1px -24px;
+}
+.ban-nav-left>ul>li:nth-of-type(2):hover>i{
+    background-position:-40px -24px;
+}
+.ban-nav-left>ul>li:nth-of-type(3):hover>i{
+    background-position:-60px -24px;
+}
+.ban-nav-left>ul>li:nth-of-type(4):hover>i{
+    background-position:-20px -24px;
+}
+.ban-nav-left>ul>li:nth-of-type(5):hover>i{
+    background-position:-80px -24px;
+}
+.ban-nav-left>ul>li:nth-of-type(6):hover>i{
+    background-position:-100px -24px;
+}
+.ban-nav-left>ul>li:nth-of-type(7):hover>i{
+    background-position:-120px -24px;
+}
+.ban-nav-left>ul .dujia-active{
+    background:#fff;
+    color:rgb(45,185,85);
+    font-weight:bold;
+    border-bottom:1px solid #fff;
+}
+.ban-nav-left>ul li.dujia-active i{
+    background-position:1px -24px;
+    
+}
+.dujia{
+    position:absolute;
+    width:150px;
+    height:420px;
+    top:0;
+    left:80px;
+    font-weight:normal;
+    overflow: hidden;
+}
+.dujia ul{
+    text-align:left;
+    padding:10px;
+    background:#fff;
+}
+.dujia ul li{
+    height:46px;
+}
+.dujia div>a{
+    font-size:14px;
+    font-weight:bold;
+    margin-right:6px;
+}
+.dujia div p{
+    height:16px;
+    overflow: hidden;
+    border-bottom:1px dotted #ccc;
+    padding-bottom:4px;
+}
+.dujia li:last-of-type p{
+    border:0;
+}
+.dujia div p a{
+    color:#aaa;
+    margin-right:2px;
+}
+.dujia a:hover{
+    color:rgb(255,102,0);
+}
+.ban-nav-main{
+    position:absolute;
+    width:705px;
+    margin-top:10px;
+    left:50%;
+    margin-left:-352.5px;
+}
+.ban-main-top{
+    height:300px;
+    position: relative;
+}
+.ban-main-top a{
+    display: block;
+    width:100%;
+    height:250px;
+}
+.ban-main-top span{
+    width:45px;
+    height:100px;
+    position: absolute;
+    opacity:0.7;
+}
+.ban-main-top span:first-of-type{
+    background: url(../tuniu/sprite.png)0 0 no-repeat;
+    top:50%;
+    margin-top:-50px;
+    left:-20px;
+}
+.ban-main-top span:last-of-type{
+    background: url(../tuniu/sprite.png)right 0 no-repeat;
+    top:50%;
+    margin-top:-50px;
+    right:-20px;
+}
+.ban-main-top dl{
+    width:100%;
+    position: absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-50%;
+}
+.ban-main-top dd{
+    float:left;
+    width: 116px;
+    color:#333;
+    font-size:12px;
+    text-align:center;
+    background:rgba(255, 255, 255, 0.7);
+    margin-right:1.5px;
+    transition:.5s;
+}
+.ban-main-top dd.dd-style{
+    background:rgba(0,0,0,0.7);
+    color:rgba(255,255,255,0.7);
+}
+.ban-main-bottom{
+    width:100%;
+    height: 122px;
+}
+.ban-main-bottom ul{
+    position:relative;
+    width:100%;
+}
+.ban-main-bottom li{
+    height:122px;
+    width:97px;
+    overflow:hidden;
+    position:absolute;
+}
+.ban-main-bottom li:first-of-type{
+    left:0px;
+}
+.ban-main-bottom li:nth-of-type(2){
+    left: 122px;
+}
+.ban-main-bottom li:nth-of-type(3){
+    left: 219px;
+}
+.ban-main-bottom li:nth-of-type(4){
+    left: 316px;
+}
+.ban-main-bottom li:nth-of-type(5){
+    left: 413px;
+}
+.ban-main-bottom li:nth-of-type(6){
+    left: 510px;
+}
+.ban-main-bottom li:last-of-type{
+    left:607px;
+}
+.ban-main-bottom li.ban-bottom-img{
+    width:122px;
+}
+.ban-main-bottom li.ban-bottom-img img{
+    left:-100px;
+}
+.ban-main-bottom li a img{
+    height:122px;
+    position:absolute;
+    left:0;
+    transition:.2s;
+}
+.ban-nav-right{
+    position:absolute;
+    right:0;
+    top:10px;
+    width:230px;
+    height:420px;
+    background:#fff;
+    overflow:hidden;
+}
+.ban-right-top{
+    width:100%;
+    height:78px;
+}
+.manyidu{
+    width:60px;
+    height:60px;
+    border:3px solid rgb(255,102,0);
+    border-radius:50%;
+    text-align:center;
+    color: rgb(255,102,0);
+    margin-top:8px;
+    margin-left:8px;
+    float:left;
+}
+
+.manyidu span{
+    display: inline-block;
+    margin-top:6px;
+}
+.manyidu span:first-of-type{
+    font-size:22px;
+}
+.manyidu span:last-of-type{
+    font-size:16px;
+}
+.manyidu p{
+    font-size:12px
+}
+.ban-right-top>span{
+    float:left;
+    font-size: 12px;
+    color:#777;
+    
+}
+.ban-right-top>span:first-of-type{
+    margin:20px 0 8px 8px;
+}
+.ban-right-top>span:last-of-type{
+    margin-left:8px;
+}
+.ban-right-banner{
+    width:210px;
+    height:65px;
+    margin:0 auto;
+    overflow:hidden;
+    position: relative;
+}
+.ban-right-banner ul{
+    width:210px;
+    top:-66px;
+    position:absolute;
+}
+.ban-right-banner ul li{
+    height:61px;
+    padding-bottom:3px;
+}
+.ban-right-banner ul li a p{
+    font-size:12px;
+    height:38px;
+    line-height:18px;
+    overflow: hidden;
+    margin:2px;
+    color:#666;
+    font-family: "宋体";
+}
+.ban-right-banner ul li a span{
+    font-size:12px;
+    color:#777
+}
+.ban-right-banner ul li a span:first-of-type{
+    float:left;
+}
+.ban-right-banner ul li a span:last-of-type{
+    float:right;
+}
+.ban-right-img{
+    height:125px;
+    overflow: hidden;
+}
+.ban-right-img a:first-of-type img{
+    height:67px;
+    border-top:1px solid #f5f5f5;
+    border-bottom:1px solid #f5f5f5;
+}
+.ban-right-img a:last-of-type img{
+    height:56px;
+}
+.ban-right-span{
+    width: 100%;
+    height:10px;
+    background:url(../tuniu/index_icon.png)0 -192px no-repeat;
+    margin-bottom:8px;
+    text-align:center;
+}
+.ban-right-span span{
+    font-size:14px;
+    color:#666;
+    position: relative;
+    top:-8px;
+}
+.ban-right-bottom{
+    height:130px;
+    width:206px;
+    margin:0 auto;
+    font-size:12px;
+}
+.ban-right-bottom div{
+    float:left;
+    height:130px;
+    width: 100px;
+}
+.ban-right-bottom img{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top:-8px;
+    margin-right:8px;
+}
+.ban-right-bottom a{
+    line-height:42px;
+    display:block;
+    text-align:left;
+    color:#666;
+}
+.ban-right-bottom-right{
+    border-left:1px dotted #ccc;
+}
+.ban-right-bottom-right a{
+    padding-left:10px;
+}
+.ban-right-bottom a:hover img{
+    top:-10px;
+}
+.ban-right-bottom a:hover{
+    color:rgb(255,102,0);
+}
+.content{
+    width:100%;
+    margin-top:20px;
+    background: #fff;
+}
+.content-top{
+    width:1200px;
+    margin:0 auto;
+    height:206px;
+}
+.content-top-left{
+    width:950px;
+    height: 206px;
+    float:left;
+}
+.content-top-head{
+    width:100%;
+    line-height:30px;
+    overflow: hidden;
+    position:relative;
+}
+.content-top-head::after{
+    content:"";
+    width:100%;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background:#eceef4;
+}
+.content-top-head ul{
+    float:left;
+    font-size:16px;
+    
+}
+.content-top-head li{
+    float:left;
+    padding:4px;
+    margin-right:20px;
+}
+.content-top-head span{
+    float:right;line-height:40px;
+    font-size:12px;
+}
+.content-top-head span a{
+    color:#666;
+    font-family: "宋体";
+}
+.content-top-head .content_border{
+    position: relative;
+    font-weight:bold;
+    font-size: 18px;
+    border-bottom:3px solid #22c231;
+    color:#22c231;
+    z-index:1;
+}
+.content-top-left>ul{
+    margin-top:18px;
+}
+.content-top-left>ul>li{
+    display:none;
+}
+.content-top-left .content_foot_hover{display:block}
+.content-top-foot{
+    width:100%;
+    font-size:12px;
+}
+.content-top-foot li{
+    width:225px;
+    position:relative;
+    float:left;
+    margin-right:16px;
+}
+.content-top-foot li:hover{
+    box-shadow:2px 2px 2px 2px rgba(255,102,0,0.2);
+}
+.content-top-foot li:last-of-type{
+    margin-right:0;
+    float:right;
+}
+.content-top-foot img{
+    width: 225px;
+    height: 125px;
+}
+.content-top-foot>ul>li>a>div{
+    background: rgba(255, 255, 255, 0.9);
+    width:110px;
+    padding:5px;
+    height:115px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.content-top-foot div div{
+    width:100px;
+    text-align:center;
+}
+.content-top-foot div div span{
+    display:inline-block;
+    width:16px;
+    line-height:18px;
+    background: #333;
+    color: #fff;
+    padding:1px;
+    border-radius:3px;
+    margin-left:3px;
+}
+.content-top-foot div p:first-of-type{
+    height:36px;
+    width: 100%;
+    line-height:18px;
+    overflow: hidden;
+}
+.content-top-foot div p:last-of-type{
+    color:rgb(255,102,0);
+    font-size:14px;
+    line-height:32px;
+}
+.content-top-foot div p span{
+    font-size:20px;
+    font-weight:bold;
+    color:rgb(255,102,0)
+}
+.content-top-foot>ul>li>a>div>span{
+    border:1px solid rgb(255,102,0);
+    color:rgb(255,102,0);
+    margin-left:4px;
+    padding:0 6px 0 4px;
+}
+.content-top-right{
+    float:right;
+    width:225px;
+    overflow:hidden;
+}
+.content-top-right-head{
+    width: 100%;
+    height:41px;
+    overflow:hidden;
+    line-height:40px;
+    position: relative;
+}
+.content-top-right-head:after{
+    content:"";
+    width:100%;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background:#eceef4;
+}
+.content-top-right-head span{
+    font-size:16px;
+    float: left;
+
+}
+.content-top-right-head a{
+    float:right;
+}
+.content-top-right-head a img{
+    height:35px;
+    margin-bottom:3px;
+}
+.content-top-right-foot{
+    width:100%;
+    font-size:13px;
+    margin-top:14px;
+    line-height:24px;
+}
+.content-top-right-foot li{
+    margin-bottom:3px;
+    height:24px;
+    overflow: hidden;
+}
+.content-top-right-foot li:hover{
+    background:rgb(245,246,248)
+}
+.content-top-right-foot li a{
+    color:#666;
+}
+.content-top-right-foot li:hover a{
+    color:rgb(255,102,0);
+}
+.content-body{
+    width:1200px;
+    margin:0 auto;
+}
+.content-body::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.content-body-left{
+    width:950px;
+    float:left;
+}
+.content-body-djrw{
+    width:100%;
+}
+.content-body-top{
+    overflow: hidden;
+    line-height:35px;
+}
+.content-body-top span{
+    font-size:18px;
+    font-weight:bold;
+    float:left;
+    margin-right:165px;
+}
+.content-body-top ul{
+    float:left;
+}
+.content-body-top li{
+    font-size:15px;
+    float:left;
+    margin-right:30px;
+}
+.content-body-top .djrw-hover{
+    color:#d74568;
+}
+.content-body-main{
+    width:950px;
+    height:410px;
+    background:url(../tuniu/background_1119.jpg)0 0 no-repeat;
+    background-size:950px 410px;
+    border-top:3px solid rgb(225,91,57);
+}
+.content-body-main>ul>li{
+    display:none;
+}
+.content-body-main .content-body-main-hover{
+    display:block;
+}
+.content-body-main-left{
+    float:left;
+    width:225px;
+}
+.content-body-main-left>a{
+    display:block;
+    width: 255px;
+    height: 255px;
+}
+.content-body-main-left ul{
+    width: 205px;
+    margin:0 auto;
+}
+.content-body-main-left li{
+    padding-left:10px;
+    font-size:14px;
+    line-height:30px;
+    background:url(../tuniu/button2.png) no-repeat;
+    background-size:205px;
+    margin-bottom:4px;
+}
+.content-body-main-left li:first-of-type{
+    font-weight:bold;
+}
+.content-body-main-left li:first-of-type a{
+    color:rgb(255,102,0);
+}
+.content-body-main-left li a{
+    color:#555;
+}
+.content-body-main-right{
+    float:left;
+    width:720px;
+    margin-top:20px;
+}
+.content-body-main-right ul{
+    font-size:12px;
+}
+.content-body-main-right li{
+    float:left;
+    width:215px;
+    height:180px;
+    margin:0 7px 7px 0;;
+    background:#fff;
+    padding:0 9px;
+    position:relative;
+}
+.content-body-main-right li:hover{
+    box-shadow:2px 2px 2px 2px rgba(255, 81, 0, 0.2);
+}
+.content-body-main-right li a img{
+    height: 120px;
+    width:215px;
+    margin-top:9px;
+    margin-bottom:10px;
+}
+.content-body-main-right li a p:first-of-type{
+    position:absolute;
+    top:89px;
+    left:9px;
+    width:211px;
+    height:40px;
+    line-height:20px;
+    padding: 0 2px;
+    overflow:hidden;
+    background:rgba(0,0,0,0.3);
+    color:#fff;
+}
+.content-body-main-right li a p:first-of-type span{
+    font-weight:bold;
+}
+.content-body-main-right li a p:last-of-type{
+    color: rgb(255,102,0);
+    font-size:14px;
+    float:left;
+}
+.content-body-main-right li a p:last-of-type span{
+    font-size:20px;
+}
+.content-body-main-right li a>span{
+    float:right;
+    color:#999;
+    margin:8px 4px;
+}
+.content-body-cjcx{
+    margin-top:25px;
+    width:100%;
+}
+.content-body-cjcx::after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.content-cjcx-top{
+    overflow: hidden;
+    width:100%;
+    line-height:35px;
+    position: relative;
+    margin-bottom:10px;
+}
+.content-cjcx-top::after{
+    content:"";
+    width:100%;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background:#eceef4;
+}
+.content-cjcx-top span:first-of-type{
+    font-size:18px;
+    font-weight:bold;
+    float:left;
+    margin-right:165px;
+}
+.content-cjcx-top span:last-of-type{
+    float:right;
+    font-size:12px;
+}
+.content-cjcx-top span:last-of-type a{
+    color:#ccc;
+    font-family: "宋体";
+}
+.content-cjcx-top ul{
+    float:left;
+}
+.content-cjcx-top li{
+    float:left;
+    margin-right:20px;
+    font-size:15px;
+}
+.content-cjcx-top .cjcx-hover-li{
+    position: relative;;
+    color: #517ac0;
+    border-bottom:3px solid #517ac0;
+    z-index:1;
+}
+.content-cjcx-main{
+    width:100%;
+}
+.cjcx-left{
+    width:225px;
+    float:left;
+}
+.cjcx-left h4{
+    font-size:14px;
+    margin-left:8px;
+    margin-bottom:8px;
+}
+.cjcx-left ul{
+    overflow:hidden;
+    width:215px;
+    margin:0 auto;
+    padding-bottom:8px;
+    border-bottom:1px dotted #d7d7d7;
+    margin-bottom:10px;
+}
+.cjcx-left li{
+    float:left;
+    width: 93px;
+    padding-left:8px;
+    font-size:13px;
+    background:url(../tuniu/titpoint.png)center left no-repeat;
+    line-height:22px;
+}
+.cjcx-left li a{
+    color:#444
+}
+.cjcx-left a:hover{
+    color:rgb(255,102,0);
+}
+.cjcx-left>a img{
+    width: 225px;
+}
+.content-cjcx-main>ul>li{
+    display: none;
+}
+.content-cjcx-main .cjcx-hover{
+    display:block;
+}
+.cjcx-right{
+    float:left;
+    width:725px;
+}
+.cjcx-right ul{
+    font-size:12px;
+}
+.cjcx-right li{
+    float:left;
+    position:relative;
+    width:225px;
+    height:170px;
+    overflow: hidden;
+    margin:0 7px 10px 7px;;
+}
+.cjcx-right li:hover{
+    box-shadow:2px 2px 2px 2px rgba(255,102,0,0.2);
+}
+.cjcx-right a img{
+    width:225px;
+    height:127px;
+    margin-bottom:9px;
+}
+.cjcx-right a p:first-of-type{
+    position: absolute;
+    height:40px;
+    width:221px;
+    top:87px;
+    left:0;
+    line-height:20px;
+    padding:0 2px;
+    color:#fff;
+    overflow: hidden;
+    background:rgba(0,0,0,0.3);
+}
+.cjcx-right a p:first-of-type span{
+    font-weight:bold;
+}
+.cjcx-right a p:last-of-type{
+    color:rgb(255,102,0);
+    float:left;
+    font-size:14px;
+}
+.cjcx-right a p:last-of-type span{
+    font-size:20px
+}
+.cjcx-right a>span{
+    float:right;
+    color:#999;
+    margin:8px 4px;
+}
+.content-foot{
+    width:100%;
+    margin-top:20px;
+}
+.content-foot>ul>li{
+    display:none;
+}
+.content-foot .con_list_hover{
+    display:block;
+}
+.content-foot::after{
+    content: "";
+    display:block;
+    clear:both;
+}
+.content-foot-top{
+    width:930px;
+    padding:10px 10px 5px 10px;
+    overflow: hidden;
+    border-bottom:3px solid #eceef4;
+}
+.content-foot-top span{
+    line-height:30px;
+}
+.content-foot-top span:first-of-type{
+    font-size:18px;
+    font-weight:bold;
+    float:left;
+}
+.content-foot-top span:nth-of-type(2){
+    float:right;
+}
+.content-foot-top span:nth-of-type(2) a{
+    color:#2e9900;
+}
+.content-foot-top span:nth-of-type(2) i{
+    display:inline-block;
+    width:23px;
+    height: 15px;
+    margin-right:4px;
+    vertical-align:-2px;
+    background:url(../tuniu/index_icon.png) -24px -122px no-repeat;
+
+}
+.content-foot-top span:last-of-type{
+    float:right;
+    font-size:12px;
+    margin-right:30px;
+}
+.content-foot-top span:last-of-type a{
+    color:#666;
+}
+.content-foot-top span:last-of-type i{
+    display: inline-block;
+    width:14px;
+    height:12px;
+    margin-right:4px;
+    vertical-align:-2px;
+    background:url(../tuniu/index_icon.png)-1px -125px no-repeat;
+}
+.content-foot-list{
+    overflow: hidden;
+}
+.content-foot-list ul{
+    float:left;
+    margin:15px 0 10px 0;
+}
+.content-foot-list li{
+    float:left;
+    line-height:30px;
+    margin-right:20px;
+    font-size:15px;
+    padding:0 15px 0 15px;
+}
+.content-foot-list .content-foot-list-hover{
+    background:#2e9900;
+    color:#fff;
+}
+.content-foot-list span{
+    float:right;
+    line-height:50px;
+    font-size:13px;
+    color:#777;
+    font-family:"宋体";
+}
+.content-foot-main{
+    width:100%;
+}
+.content-foot-main-left{
+    width:225px;
+    height:320px;
+    float:left;
+    position:relative;
+    overflow:hidden;
+}
+.content-foot-main-left>a>img{
+    width: 225px;
+}
+.content-foot-main-left:hover .con_left{
+    top:220px;
+}
+.con_left{
+    top:270px;
+}
+.content-foot-main-hover{
+    position: absolute;
+    left:0;
+    transition:0.2s;
+    height:100px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.8));
+    
+}
+.content-foot-main-hover>p{
+    width:215px;
+    height:20px;
+    font-size:14px;
+    color:#fff;
+    line-height:20px;
+    margin:20px 0 10px 0;
+    padding-left:10px;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.content-foot-main-hover>div{
+    width:225px;
+    height:50px;
+    padding-left:10px;
+}
+.content-foot-main-hover>div>span{
+    float:left;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.content-foot-main-hover>div>span img{
+    width:40px;
+}
+.content-foot-main-hover>div div{
+    float:left;
+    width:165px;
+    height:50px;
+}
+.content-foot-main-hover>div div span{
+    font-size:13px;
+    display:inline-block;
+    color:rgba(255, 255, 255, 0.7);
+    text-align:center;
+}
+.content-foot-main-hover>div div span:first-of-type{
+    width:50px;
+}
+.content-foot-main-hover>div div span:nth-of-type(2){
+    color:#333;
+}
+.content-foot-main-hover>div div span:last-of-type{
+    width:50px;
+}
+.content-foot-main-hover>div div p{
+    font-size:12px;
+    margin-left:4px;
+    color:rgba(255, 255, 255, 0.7);
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.content-foot-main-center{
+    float:left;
+    width:480px;
+    padding-left:15px;
+}
+.content-foot-main-center li{
+    overflow: hidden;
+    float:left;
+    position: relative;
+    margin:0 15px 15px 0;
+}
+.content-foot-main-center li a>img{
+    width:225px;
+    height:152px;
+}
+.con_main{
+    top:102px;
+}
+.content-foot-main-center li:hover .con_main{
+    top:52px;
+}
+.content-foot-main-right{
+    float:right;
+    width:225px;
+    height:320px;
+    overflow: hidden;
+    position: relative;
+}
+.content-foot-main-right a>img{
+    width:225px;
+}
+.con_right{
+    top:270px;
+}
+.content-foot-main-right:hover .con_right{
+    top:220px;
+}
+.content-body-right{
+    width:225px;
+    float:right;
+}
+/* content-body-rightA */
+.content-body-rightA{
+    width:225px;
+    overflow:hidden;
+    background:rgb(246,246,246);
+    margin-bottom:15px;
+}
+.content-body-rightA li{
+    width: 225px;
+    height:97px;
+    position: relative;
+}
+.content-body-rightA li a{
+    display:block;
+    position:relative;
+}
+.content-body-rightA li a::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:225px;
+    height:0px;
+    background:rgba(255, 255, 255, 0.2);
+}
+.content-body-rightA li:hover a::before{
+    height:95px;
+}
+.content-body-rightA li::after{
+    content:'';
+    height:1px;
+    width:190px;
+    background:#eee;
+    position:absolute;
+    bottom:1px;
+    left:17.5px;
+}
+.content-body-rightA li:last-of-type::after{
+    height:0;
+}
+.content-body-rightA li a img{
+    width:225px;
+}
+/* content-body-rightB */
+.content-body-rightB{
+    width:225px;
+    overflow:hidden;
+    background:rgb(246,246,246);
+    margin-bottom:15px;
+}
+.content-body-rightB li{
+    width: 225px;
+    height:95px;
+    position:relative;
+}
+.content-body-rightB li a{
+    display:block;
+    position:relative;
+}
+.content-body-rightB li a::before{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:225px;
+    height:0px;
+    background:rgba(255, 255, 255, 0.2);
+}
+.content-body-rightB li:hover a::before{
+    height:95px;
+}
+.content-body-rightB li a img{
+    width:225px;
+}
+/* content-body-rightC */
+.content-body-rightC{
+    width:205px;
+    padding:10px;
+    margin-bottom:15px;
+    overflow:hidden;
+    background:rgb(246,246,246);
+}
+.content-body-rightC>span{
+    display:block;
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+.rightC-list{
+    line-height:35px;
+    position:relative;
+    overflow: hidden;
+    margin-bottom:15px;
+}
+.rightC-list::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    height:2px;
+    background:#edeef3;
+
+}
+.rightC-list li{
+    position:relative;
+    float:left;
+    font-size: 14px;
+    padding:0 12px;
+    margin-right:10px;
+    color:#444;
+}
+.rightC-list .rightC-list-active{
+    color:#4ecf5b;
+    border-bottom:2px solid #4ecf5b;
+    z-index:1;
+}
+.content-body-rightC>ul>li{
+    display:none;
+}
+.content-body-rightC .rightC-active{
+    display:block;
+}
+.rightC-nav{
+    width:100%;
+    font-size:12px;
+    background:#fff;
+    overflow: hidden;
+}
+.rightC-nav li{
+    width:100%;
+    overflow: hidden;
+    margin-bottom:15px;
+}
+.rightC-nav img{
+    width:60px;
+    height: 60px;
+    float:left;
+}
+.rightC-nav a>div{
+    width:130px;
+    float:left;
+    margin-left:10px;
+}
+.rightC-nav a>div>p{
+    line-height:24px;
+    height:20px;
+    font-family:"宋体";
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.rightC-nav div div{
+    color:#777;
+}
+.rightC-nav div div p{
+    height:20px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.rightC-nav div div span{
+    margin-top:5px;
+}
+.rightC-nav div div span:first-of-type{float:left;}
+.rightC-nav div div span:last-of-type{float:right;}
+.rightC-nav div div span i{
+    font-style:normal;
+    color:#f60;
+}
+/* content-body-rightD */
+.content-body-rightD{
+    width:205px;
+    padding:10px;
+    overflow:hidden;
+    background:rgb(246,246,246);
+    margin-bottom:15px;
+}
+.content-body-rightD span{
+    display:block;
+    font-size:14px;
+    margin-top:5px;
+    margin-bottom:10px;
+    font-weight:bold;
+}
+.rightD{
+    width: 100%;
+}
+.rightD li{
+    position: relative;
+    margin-bottom:1px;
+    background:#fff;
+}
+.rightD li::after{
+    content:'';
+    height:1px;
+    width:185px;
+    background:#eee;
+    position:absolute;
+    bottom:-1px;
+    left:10px;
+}
+.rightD li:last-of-type::after{
+    height:0;
+}
+.rightD li a{
+    display: block;
+    position: relative;
+}
+.rightD li a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:205px;
+    height:0px;
+    background:rgba(255, 255, 255, 0.2);
+}
+.rightD li:hover a::after{
+    height: 75px;
+}
+.rightD li img{
+    width:205px;
+    height: 75px;
+}
+.content-body-rightE{
+    width: 225px;
+}
+.content-body-rightE a{
+    display:block;
+    position: relative;
+}
+.content-body-rightE a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    width:225px;
+    height:0px;
+    background:rgba(255, 255, 255, 0.2);
+}
+.content-body-rightE a:hover::after{
+    height:75px;
+}
+.content-body-rightE img{
+    width: 225px;
+    height: 75px;
+}
+.celan{
+    width:40px;
+    height:100%;
+    position:fixed;
+    top:0;right:0;
+    background:#333;
+    z-index:1000;
+}
+.celan ul li{
+    position:relative;
+    width:40px;
+    height: 40px;
+    border-bottom:1px solid rgba(100, 100, 100, 0.4);
+}
+.celan ul li:first-of-type{
+    height:170px;
+}
+.celan ul li:nth-of-type(2) i{
+    background-position:6px 14px;
+}
+.celan ul li:nth-of-type(2) i:hover{
+    background-position:-62px 14px;
+}
+.celan ul li:nth-of-type(3){
+    padding:10px 0;
+}
+.celan ul li:nth-of-type(3)>a>i{
+    background-position:5px -36px;
+}
+.celan ul li:nth-of-type(3):hover>a>i{
+    background-position:-64px -36px;
+}
+.celan ul li:nth-of-type(4) i{
+    background-position:7px -97px;
+}
+.celan ul li:nth-of-type(4) i:hover{
+    background-position:-59px -97px;
+}
+.celan ul li:nth-of-type(5) i{
+    background-position:8px -224px;
+}
+.celan ul li:nth-of-type(5) i:hover{
+    background-position:-61px -224px;
+}
+.celan ul li:nth-of-type(6) i{
+    background-position:10px -288px;
+}
+.celan ul li:nth-of-type(6) i:hover{
+    background-position:-59px -288px;
+}
+.celan ul li:nth-of-type(7) i{
+    background-position:8px -785px;
+}
+.celan ul li:nth-of-type(7) i:hover{
+    background-position:-60px -785px;
+}
+.celan ul li:nth-of-type(8){
+    height:125px;
+}
+.celan ul li:nth-of-type(8) i{
+    background-position:8px -728px;
+}
+.celan ul li:nth-of-type(8) i:hover{
+    background-position:-60px -728px;
+}
+.celan ul li:nth-of-type(9) i{
+    background-position:8px -846px;
+}
+.celan ul li:nth-of-type(9) i:hover{
+    background-position:-60px -846px;
+}
+.celan ul li:nth-of-type(10) i{
+    background-position:9px -544px;
+}
+.celan ul li:nth-of-type(10) i:hover{
+    background-position:-60px -544px;
+}
+.celan ul li:nth-of-type(11) i{
+    background-position:10px -600px;
+}
+.celan ul li:nth-of-type(11) i:hover{
+    background-position:-59px -600px;
+}
+.celan ul li a>i{
+    font-style:normal;
+    display:block;
+    position: relative;
+    width:40px;
+    height:40px;
+    background:url(../tuniu/rc_icon_all.png) no-repeat;
+}
+.celan ul li a i span{
+    position: absolute;
+    font-size:14px;
+    color:rgb(255,136,0);
+    top:0px;
+    right:60px;
+    width:60px;
+    height:40px;
+    line-height:40px;
+    padding:0 10px;
+    background:#333;
+    border-left:2px solid rgb(255,136,0);
+    visibility:hidden;
+    opacity:0;
+    transition:0.1s;
+}
+.celan ul li a i:hover span{
+    transition:0.4s;
+    visibility:visible;
+    right:40px;
+    opacity:1;
+}
+.celan ul li a i img{
+    position: absolute;
+    top:0;
+    right:60px;
+    visibility:hidden;
+    opacity:0;
+    transition:0.1s;
+}
+.celan ul li a i:hover img{
+    transition:0.4s;
+    visibility:visible;
+    right:40px;
+    opacity:1;
+}
+.celan ul li:hover .denglu{
+    transition:0.4s;
+    visibility:visible;
+    right:40px;
+    opacity:1;
+}
+.denglu{
+    width: 375px;
+    height: 350px;
+    background: #fff;
+    position: absolute;
+    top:0;
+    right:60px;
+    visibility:hidden;
+    opacity:0;
+    transition:0.1s;
+}
+.denglu dl{
+    overflow: hidden;
+    padding:10px 0;
+    font-size:18px;
+    border-bottom:1px solid #ccc;
+    margin-bottom:40px;
+}
+.denglu dd{
+    float:left;
+    width:187px;
+    line-height:30px;
+    text-align:center;
+    color:#666;
+}
+.denglu dd:first-of-type{
+    border-right:1px solid #ccc;
+}
+.denglu>input{
+    display:block;
+    outline-color:rgb(17,161,58);
+    padding-left:48px;
+    width:256px;
+    height: 40px;
+    font-size:14px;
+    line-height:40px;
+    border:1px solid #ccc;
+    margin:10px auto;
+}
+.denglu>input:first-of-type{
+    background:url(../tuniu/login_icon.png)15px -9px no-repeat;
+}
+.denglu>input:last-of-type{
+    background:url(../tuniu/login_icon.png)15px -48px no-repeat;
+}
+.denglu p{
+    display:block;
+    width: 304px;
+    margin:0 auto;
+    line-height:40px;
+    overflow: hidden;
+}
+.denglu p span{
+    font-size:12px;
+}
+.denglu p span input{
+    vertical-align:-2px;
+    margin-right:4px;
+}
+.denglu p span:first-of-type{
+    float:left;
+    color:#999;
+}
+.denglu p span:last-of-type{
+    float:right;
+}
+.denglu p span img{
+    height:16px;
+    vertical-align:-4px;
+    margin-right:4px;
+}
+.denglu p span a{
+    color:#666;
+}
+.denglu p span a:hover{
+    color:#39c34c;
+}
+.denglu button{
+    border:0;
+    margin:0 auto;
+    display:block;
+    width:304px;
+    height: 40px;
+    background:#f80;
+    outline:none;
+    color:#fff;
+    border-radius:5px;
+}
+.denglu>span:first-of-type{
+    float:left;
+    margin-left:36px;
+    line-height:40px;
+}
+.denglu>span:first-of-type>a{
+    font-size: 12px;
+    color:#666;
+}
+.denglu>span:last-of-type{
+    float:right;
+    margin-right:36px;
+    font-size: 12px;
+    line-height:40px;
+}
+.denglu>span:last-of-type>a{
+    color:#666;
+}
+.denglu>span:last-of-type>a i{
+    color:#f80;
+    display:inline;
+    background:#fff;
+}
+.left-celan{
+    position: fixed;
+    width:40px;
+    overflow: hidden;
+    left:5%;
+    top:0;
+    margin-left:-40px;
+    margin-top:0px;
+    visibility:hidden;
+    opacity:0;
+    background:#fff;
+}
+.left-celan li{
+    position:relative;
+    text-align:center;
+    height:35px;
+    width:30px;
+    padding:5px 5px 0 5px;
+    line-height:14px;
+    font-size:12px;
+    color:#999;
+}
+.left-celan li::after{
+    content:'';
+    position: absolute;
+    bottom:0;
+    left:10px;
+    height:1px;
+    width:20px;
+    background:rgba(153, 153, 153, 0.2);
+}
+.left-celan li:last-of-type::after{
+    height:0;
+}
+.left-celan .Celan{
+    color:#fff;
+    background:rgb(215, 69, 104);
+}
+.bgcelan{
+    position: fixed;
+    width: 100%;
+    height: 147px;
+    bottom:0;
+    left:-100%;
+    background:rgba(0, 5, 25,0.85);
+    z-index:1001;
+    transition:0.2s;
+}
+.ggcelan{
+    width:1000px;
+    height:147px;
+    position: relative;
+    margin:0 auto;
+}
+.ggcelan>a{
+    position: absolute;
+    bottom:0;
+    width:670px;
+    height:140px;
+}
+.ggcelan>img{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width:1000px;
+    height:195px;
+    display:block;
+}
+.ggcelan div{
+    position: absolute;
+    left:500px;
+    top:35px;
+}
+.ggcelan input{
+    display: block;
+    text-align:center;
+    outline:none;
+    width:224px;
+    height:30px;
+    border-radius:3px;
+    border:1px solid #333;
+    margin-bottom:6px;
+    font-size:15px;
+}
+.ggcelan button{
+    display: block;
+    text-align:center;
+    outline:none;
+    width:226px;
+    height:32px;
+    border:0;
+    border-radius:3px;
+    background:#ffd835;
+    color:#c11a12;
+    font-size:16px;
+}
+.ggcelan ul{
+    position: absolute;
+    left:760px;
+    top:35px;
+    z-index:1;
+}
+.ggcelan li{
+    margin-bottom:10px;
+}
+.ggcelan i{
+    position: absolute;
+    left:0;
+    top:4px;
+    transform:rotate(180deg);
+    transition:0.3s;
+}
+.celanon{
+    position: fixed;
+    left:-50px;
+    bottom:5px;
+    z-index:10002;
+    cursor:pointer;
+}
+.foot{
+    width:100%;
+    margin-top:20px;
+}
+.foot-main{
+    width:1200px;
+    margin:0 auto;
+}
+.foot-main-top{
+    overflow: hidden;
+    border-bottom:2px solid #333;
+}
+.foot-main-top span:first-of-type{
+    float:left;
+    font-size:20px;
+    color:#333;
+    line-height:40px;
+}
+.foot-main-top span:last-of-type{
+    float:right;
+    font-size:12px;
+    line-height:40px;
+    color:#999;
+}
+.foot-main-banner{
+    margin-top:30px;
+    margin-bottom:20px;
+    width:100%;
+    height:170px;
+    overflow: hidden;
+    position: relative;
+}
+.foot-main-banner ul{
+    position: absolute;
+    top:0;
+    left:0;
+    transition:1s;
+}
+.foot-main-banner li{
+    float:left;
+    width:130px;
+    height: 90px;
+    text-align:center;
+    overflow: hidden;
+}
+.foot-main-banner li img{
+    display:block;
+    margin-left:15px;
+    width:100px;
+    height:40px;
+    margin-bottom:5px;
+}
+.foot-main-banner li p{
+    width:100%;
+    color:#666;
+    font-size:12px;
+}
+.foot-A{
+    width:100%;
+    overflow: hidden;
+    margin-top:40px;
+}
+.foot-A-main{
+    width:1200px;
+    margin:0 auto;
+}
+.foot-A-main li{
+    width:110px;
+    padding:0 10px;
+    height: 50px;
+    float:left;
+    font-size: 12px;
+    text-align:center;
+}
+.foot-A-main li a{
+    color:#333;
+}
+.foot-A-main li i{
+    display:inline-block;
+    width: 24px;
+    height: 24px;
+    background:url(../tuniu/common_foot.png)0 -59px no-repeat;
+}
+.foot-B{
+    width:100%;
+    margin-top:40px;
+    border-bottom:1px solid #d8d8d8;
+    padding-bottom:10px;
+}
+.foot-B:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.foot-B-main{
+    width:1200px;
+    margin:0 auto;
+}
+.foot-B-main dl{
+    float:left;
+    font-size:12px;
+    line-height:20px;
+    padding-right:50px;
+}
+.foot-B-main dl:first-of-type{
+    padding-left:40px;
+}
+.foot-B-main dt{
+    font-size:14px;
+    color:#666;
+    font-weight:bold;
+}
+.foot-B-main dd{
+    line-height:24px;
+}
+.foot-B-main dd a{
+    color:#999;
+}
+.foot-B-main dl:last-of-type{
+    float:right;
+    width:260px;
+    padding:6px 20px;
+    background:#f6f6f6;
+    color:#999;
+    position: relative;
+}
+.foot-B-main dl:last-of-type span{
+    display:block;
+    font-weight:bold;
+    padding-left:25px;
+    background:url(../tuniu/common_foot.png)-211px -2px no-repeat;
+}
+.foot-B-main dl:last-of-type i{
+    position: absolute;
+    width: 96px;
+    height: 66px;
+    bottom:0;
+    right:-40px;
+    background:url(../tuniu/serv_24.png)0 0 no-repeat;
+}
+.foot-C{
+    width: 100%;
+    background:#f5f5f5;
+    padding:20px 0;
+}
+.foot-C:after{
+    content:"";
+    display:block;
+    clear: both;
+}
+.foot-C ul{
+    width:990px;
+    margin:0 auto;
+}
+.foot-C li{
+    float:left;
+    overflow: hidden;
+    border-right:1px dotted #d8d8d8;
+    margin-right:20px;
+    padding-bottom:20px;
+}
+.foot-C i{
+    float:left;
+    display:block;
+    width:35px;
+    height:35px;
+    background:url(../tuniu/common_foot_2.png)0 0 no-repeat;
+}
+.foot-C dl{
+    float:left;
+    margin-left:10px;
+}
+.foot-C dt{
+    line-height:35px;
+    font-weight:bold;
+    color:#666;
+    font-size:14px;
+}
+.foot-C dd{
+    font-size:12px;
+}
+.foot-C dd p a{
+    display: inline-block;
+    width:110px;
+    color:#999;
+    line-height:18px;
+    cursor: pointer;
+}
+.foot-C>ul>li:nth-of-type(2) i{
+    background-position:-40px 0;
+}
+.foot-C li:first-of-type dd p a{
+    width:65px;
+}
+.foot-C>ul>li:nth-of-type(3) i{
+    background-position:-80px 0;
+}
+.foot-C>ul>li:nth-of-type(4) i{
+    background-position:-120px 0;
+}
+.foot-C>ul>li:nth-of-type(5) i{
+    background-position:-160px 0;
+}
+.foot-C>ul>li:last-of-type{
+    border-right:0;
+}
+/* foot-D */
+.foot-D{
+    width:100%;
+    background:#60ca6e;
+}
+.foot-D-main{
+    margin:0 auto;
+    background:url(../tuniu/thr_sun.jpg);
+    width:990px;
+    height:62px;
+}
+.foot-D-main a{
+    float:right;
+    padding-top:10px;
+    margin-right:10px;
+}
+.foot-D-main a em{
+    display: block;
+    color:#fff;
+    font-style:normal;
+    font-size:12px;
+    line-height:20px;
+}
+.foot-D-main a em:last-of-type{
+    font-size:18px;
+    line-height:26px;
+    font-weight: bold;
+    margin-left:5px;
+}
+/* foot-E */
+.foot-E{
+    width: 990px;
+    margin:10px auto 10px;
+    overflow: hidden;
+}
+.foot-E li{
+    border:1px solid #d8d8d8;
+    float:left;
+    margin-right:10px;
+}
+.foot-E li:last-of-type{
+    margin-right:0;
+}
+.foot-F{
+    overflow: hidden;
+    width: 990px;
+    margin:0 auto;
+}
+/* foot-G */
+.foot-G{
+    font-size: 12px;
+    color:#777;
+    margin-top:10px;
+    line-height:22px;
+}
+.foot-G a{
+    color:#777;
+}
+.foot-G p{
+    text-align:center;
+}
+.foot-G p:nth-of-type(3) a{
+    margin:5px;
+}
+/* foot-H */
+.foot-H{
+    width: 100%;
+    text-align:center;
+    margin-top:10px;
+}
+.foot-H a{
+    display:inline-block;
+    width: 175px;
+    height: 38px;
+    border:1px solid #d8d8d8;
+    margin:0 3px;
+}
+.foot-H a img{
+    width: 175px;
+    height: 38px;
+}
+/* foot-I */
+.foot-I{
+    overflow:hidden;
+    width: 1000px;
+    margin:10px auto;
+    font-size:12px;
+    color:#999;
+}
+.foot-I span{
+    width: 60px;
+    float:left;
+}
+.foot-I-ul{
+    overflow:hidden;
+    width: 940px;
+    height:16px;
+    float:left;
+    position:relative;
+}
+.foot-I-ul ul{
+    transition:2s;
+    overflow: hidden;
+    width:10000px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.foot-I-ul ul li{
+    float:left;
+}
+/* foot-J */
+.foot-J{
+    text-align:center;
+    width: 1000px;;
+    margin:0 auto;
+}
+.foot-J img{
+    height: 47px;
+}
+.foot-J a:first-of-type img{
+    height: 41px;
+}
+.foot-K{
+    overflow: hidden;
+    width: 90%;
+    margin:10px auto 20px;
+    font-size:12px;
+    color:#999;
+}
+.foot-K-box{
+    width: 1000px;
+    margin:0 auto;
+}
+.foot-K-box>span{
+    float:left;
+    width: 60px;
+}
+.foot-K-box a{
+    color:#999;
+}
+.foot-K-right{
+    float:left;
+    width: 940px;
+}
+.foot-K-right a{
+    color:#999;
+}
+.foot-K-box a:hover{
+    color:#f60;
+}
+.foot-K-right div{
+    float:right;
+    margin-right:10px;
+}
+.foot-K-right-two{
+    display: none;
+    float:left;
+    width: 940px;
+}
+
+

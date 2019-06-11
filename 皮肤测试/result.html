@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>美丽修行-肌肤测试</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <style>
+        html,
+        body,
+        img,
+        div,
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .col-xs-12 {
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 540px;
+            margin: 0 auto;
+        }
+
+        .header {
+            width:100%;
+            height:90px;
+            line-height: 90px;
+            font-size: 18px;
+            text-align:center;
+            color: rgb(119, 119, 119);
+        }
+        .main{
+            width: 170px;
+            height: 200px;
+            margin:0 auto;
+            position:relative;
+        }
+        .main img{
+            width: 100%;
+        }
+        .main .cans{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top:50%;
+            transform: translateY(-80%);
+            font-size:24px;
+            color:#fff;
+        }
+        .canshu{
+            font-size: 14px;
+            line-height: 20px;
+            padding:0 20px;
+            color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="header">
+                经过测试你的皮肤属于:
+            </div>
+            <div class="main">
+                <img src="./images/2.png" alt="">
+                <p class="cans"></p>
+            </div>
+            <div class="canshu">
+                敏感肌因为分值特殊，处于临界值，很容易从轻度敏感肌被流放到重度敏感肌，但是修宝们不要着急，根据自己的皮肤状况综合判断。
+            </div>
+        </div>
+    </div>
+</div>
+
+<body>
+    <script>
+        function UrlSearch() {
+            var name, value;
+            var str = location.href; //取得整个地址栏
+            var num = str.indexOf("?")
+            str = str.substr(num + 1); //取得所有参数   stringvar.substr(start [, length ]
+
+            var arr = str.split("&"); //各个参数放到数组里
+            for (var i = 0; i < arr.length; i++) {
+                num = arr[i].indexOf("=");
+                if (num > 0) {
+                    name = arr[i].substring(0, num);
+                    value = arr[i].substr(num + 1);
+                    this[name] = value;
+                }
+            }
+        }
+        var Request = new UrlSearch(); //实例化
+        let cjarr = ['重度敏感肌', '轻度敏感肌', '正常耐受肌', '轻度耐受肌', '重度耐受肌'];
+        let canS=document.querySelectorAll('.cans');
+        canS[0].innerHTML=cjarr[Request.score];
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!--pages/index/index.wxml-->
+<import src="../template/template.wxml" />
+
+<view>
+  <swiper indicator-dots="true" autoplay="true" class="news-banner">
+    <swiper-item>
+      <image src="../../images/news/timg.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/news/ai.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/news/5g.jpeg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="../../images/news/huawei.jpeg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="news-list">
+    <block wx:for="{{newsList}}" wx:key="index">
+      <!-- <view class="news-item">
+        <view class="item-head">
+          <image class="news-author-img" src="{{item.writersUrl}}"></image>
+          <text class="news-author-name">{{item.writers}}</text>
+          <text>发表于 {{item.publishDateStr}}</text>
+        </view>
+        <text class="item-title">{{item.title}}</text>
+        <image class="item-img" src="{{item.newsUrl}}"></image>
+        <view class="item-description">
+        {{item.description}}
+        </view>
+      </view> -->
+      <template is="newsItem" data="{{item, index}}" />
+    </block>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+/* pages/movie/movie-comming-list.wxss */
+@import "../template/template.wxss";
+
+.movie-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,36 @@
+<!--pages/movie/detail/detail.wxml-->
+<import src="../template/template.wxml" />
+
+<view class="container">
+  <view class="movie-head">
+    <image class="movie-img" src="{{movieDetail.images.large}}" bindtap="onPreviewImage" data-img-url="{{movieDetail.images.large}}"></image>
+    <view class="movie-info-container">
+      <text class="movie-detail-title">{{movieDetail.original_title}}</text>
+      <text class="movie-info">{{movieDetail.countries}} / {{movieDetail.genres}} / {{movieDetail.year}}上映 ></text>
+      <template is="ratingStar" data="{{average: movieDetail.rating.average}}"></template>
+      <view class="movie-count-container">
+        <view class="wish-count">
+          <image src="../../images/wish.png"></image>
+          <text>{{movieDetail.wish_count}}</text>
+        </view>
+        <view class="comments-count">
+          <image src="../../images/comments.png"></image>
+          <text>{{movieDetail.comments_count}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="movie-content">
+    <text class="module-title">电影简介</text>
+    <text>{{movieDetail.summary}}</text>
+  </view>
+  <view class="movie-avatars">
+    <text class="module-title">影人信息</text>
+    <view class="avatars-list">
+      <view class="avatars-item" wx:for="{{movieDetail.casts}}" wx:key="index" wx:for-item="avatar">
+        <image src="{{avatar.avatars.large}}" bindtap="onPreviewImage" data-img-url="{{avatar.avatars.large}}"></image>
+        <text>{{avatar.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

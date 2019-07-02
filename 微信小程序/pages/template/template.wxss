@@ -1,0 +1,35 @@
+/* pages/template/template.wxss */
+
+.movie-item {
+  padding-top: 20rpx;
+  width: 210rpx;
+  height: 400rpx;
+}
+
+.movie-item image {
+  width: 210rpx;
+  height: 300rpx;
+}
+
+.movie-title {
+  font-size: 28rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.movie-stars image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.movie-rating {
+  font-size: 28rpx;
+  color: #b2b2b2;
+  padding-left: 10rpx;
+}

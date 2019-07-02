@@ -1,0 +1,61 @@
+<!--pages/movie.wxml-->
+<import src="../template/template.wxml" />
+
+<view class="container">
+  <swiper indicator-dots="true" autoplay="true" class="movie-banner">
+    <swiper-item wx:for="{{inTheatersMovieList}}" wx:key="index">
+      <image bindtap="onOpenMovie" data-movie-id="{{item.id}}" style="background:url({{item.images.large}}) center center;"></image>
+    </swiper-item>
+  </swiper>
+  <view class="search">
+    <input bindinput="onInputSearch" placeholder="搜索你想看的电影..." />
+  </view>
+  <block wx:if="{{!isSearching}}">
+    <view class="movie-container">
+      <view class="movie-container-title">
+        <text style="font-size: 36rpx;">即将上映</text>
+        <text bindtap="goShowMore" style="font-size: 28rpx; color: #b2b2b2;">更多></text>
+      </view>
+      <view class="movie-list">
+        <block wx:for="{{comingSoonMovieList}}" wx:key="index">
+          <template is="movieName" data="{{item}}" ></template>
+        </block>
+      </view>
+    </view>
+    <view class="movie-container">
+      <view class="movie-container-title">
+        <text style="font-size: 36rpx;">Top250</text>
+      </view>
+      <view class="movie-list">
+        <block wx:for="{{top250MovieList}}" wx:key="index">
+          <template is="movieName" data="{{item, imgType: 'top250MovieList', index: index}}" ></template>
+        </block>
+        <!-- <view class="movie-item">
+          <image src="https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2529389608.webp"></image>
+          <view class="movie-title">蚁人2：黄蜂女现身</view>
+          <view class="movie-rating-container">
+            <view class="movie-stars">
+              <image src="../../images/star_1.png"></image>
+              <image src="../../images/star_1.png"></image>
+              <image src="../../images/star_1.png"></image>
+              <image src="../../images/star_0.png"></image>
+              <image src="../../images/star_0.png"></image>
+            </view>
+            <text class="movie-rating">10.0</text>
+          </view>
+        </view> -->
+        <template is="loading" wx:if="{{isShowLoading}}"></template>
+      </view>
+    </view>
+  </block>
+  <block wx:else>
+    <view class="movie-container">
+      <view class="empty-text" wx:if="{{isSearchEmpty}}">搜索不到这个电影...</view>
+      <view class="movie-list">
+        <block wx:for="{{searchMovieList}}" wx:key="index">
+          <template is="movieName" data="{{item, imgType: 'searchMovieList', index: index}}" ></template>
+        </block>
+      </view>
+    </view>
+  </block>
+</view>

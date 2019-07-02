@@ -1,0 +1,83 @@
+/* pages/movie/detail/detail.wxss */
+@import "../template/template.wxss";
+
+.movie-head {
+  display: flex;
+  padding: 30rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 28rpx;
+}
+.module-title {
+  font-size: 36rpx;
+  margin-bottom: 20rpx;
+}
+
+.movie-avatars {
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.movie-img {
+  width: 210rpx;
+  height: 300rpx;
+  flex-shrink: 0;
+}
+
+.movie-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30rpx;
+}
+
+.movie-detail-title {
+  font-size: 36rpx;
+}
+.movie-info {
+  color: #4c4c4c;
+  font-size: 28rpx;
+}
+.movie-count-container {
+  padding-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 28rpx;
+  color: #4c4c4c;
+}
+.movie-count-container view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 60rpx;
+}
+
+.movie-count-container image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.movie-count-container text {
+  padding-left: 20rpx;
+}
+
+.avatars-list {
+  display: flex;
+  justify-content: space-between;
+}
+.avatars-list .avatars-item image {
+  width: 210rpx;
+  height: 290rpx;
+}
+.avatars-list .avatars-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

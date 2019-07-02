@@ -1,0 +1,19 @@
+
+var ratingConvert = function(rating) {
+  if (rating && rating != 0) {
+    return Number(rating / 2).toFixed()
+  }
+  return "0.0";
+}
+
+var ratingFormat = function (rating) {
+  if (rating && rating != 0) {
+    return Number(rating).toFixed(1)
+  }
+  return "0.0";
+}
+
+module.exports = {
+  ratingConvert: ratingConvert,
+  ratingFormat: ratingFormat
+}

@@ -1,0 +1,54 @@
+<!-- <import src="./template.wxml" /> -->
+
+<template name="newsItem">
+  <view class="news-item" bindtap="onOpenItem" data-index="{{index}}">
+    <view class="item-head">
+      <image class="news-author-img" src="{{item.writersUrl}}"></image>
+      <text class="news-author-name">{{item.writers}}</text>
+      <text>发表于 {{item.publishDateStr}}</text>
+    </view>
+    <text class="item-title">{{item.title}}</text>
+    <image class="item-img" src="{{item.newsUrl}}"></image>
+    <view class="item-description">
+    {{item.description}}
+    </view>
+  </view>
+</template>
+
+<template name="ratingStar">
+  <view class="movie-rating-container">
+    <view class="movie-stars">
+      <block wx:for="{{[1, 2, 3, 4, 5]}}" wx:for-item="starItem">
+        <image src="../../images/star_{{starItem <= rating_convert.ratingConvert(average) ? 1 : 0}}.png"></image>
+      </block>
+    </view>
+    <text class="movie-rating">{{rating_convert.ratingFormat(average)}}</text>
+  </view>
+</template>
+
+<template name="movieName">
+  <view class="movie-item" bindtap="onOpenMovie" data-movie-id="{{item.id}}">
+    <image src="{{item.images.large}}" data-img-type="{{imgType}}" data-index="{{index}}" binderror="onImageError"></image>
+    <view class="movie-title">{{item.original_title}}</view>
+    <template is="ratingStar" data="{{average: item.rating.average}}"></template>
+    <!-- <view class="movie-rating-container">
+      <view class="movie-stars">
+        <image src="../../images/star_1.png"></image>
+        <image src="../../images/star_1.png"></image>
+        <image src="../../images/star_1.png"></image>
+        <image src="../../images/star_0.png"></image>
+        <image src="../../images/star_0.png"></image>
+      </view>
+      <text class="movie-rating">{{item.rating.average}}</text>
+    </view> -->
+  </view>
+</template>
+
+<template name="loading">
+  <view class="loading">
+    <image src="../../images/loading_ico.png"></image>
+    正在获取更多...
+  </view>
+</template>
+
+<wxs src="../wxs/rating_convert.wxs" module="rating_convert"></wxs>

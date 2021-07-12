@@ -1,0 +1,75 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/Home",
+			"style": {
+				"navigationBarTitleText": "快乐口算"
+			}
+		},
+		{
+			"path": "pages/index/Setting",
+			"style": {
+				"navigationBarTitleText": "绑定应用"
+			}
+		},
+		{
+			"path": "pages/page/OralKnowledge",
+			"style": {
+				"navigationBarTitleText": "口算知识",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/page/MoreTopics",
+			"style": {
+				"navigationBarTitleText": "更多题库",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/page/InteractionPractice",
+			"style": {
+				"navigationBarTitleText": "互动练习",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"autoBackButton": false
+					}
+				}
+			}
+		}, {
+			"path": "pages/page/ResultsStatistical",
+			"style": {
+				"navigationBarTitleText": "互动练习",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "快乐口算",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#C0C4CC", //未选中的菜单文字颜色
+		"selectedColor": "#99c3f7", //选中时的菜单文字颜色
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff", //背景
+		"list": [{
+				"pagePath": "pages/index/Home", //页面地址
+				"iconPath": "static/icon_home.png", //未选中时的图片
+				"selectedIconPath": "static/icon_home_o.png", //选中时的图片
+				"text": "首页" //菜单文字
+			},
+			{
+				"pagePath": "pages/index/Setting",
+				"iconPath": "static/icon_setting.png",
+				"selectedIconPath": "static/icon_setting_o.png",
+				"text": "设置"
+			}
+		]
+	}
+}
